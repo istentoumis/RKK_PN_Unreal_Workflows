@@ -71,7 +71,7 @@ In Take Recorder, select the Mime_BP as the Source.
 
 ![image](https://user-images.githubusercontent.com/88091497/197599063-ace047e7-c129-43e3-82bd-d3f933c8ae65.png)
 
-**Hit Play** and then start recording your Animation, otherwise you will not be able to:
+**Hit Play in the editor** and then start recording your Animation, otherwise you will not be able to:
 
 ![image](https://user-images.githubusercontent.com/88091497/194756937-9d158286-e9c4-4ca7-8ef1-8783abc6e6b0.png)
 
