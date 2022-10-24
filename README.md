@@ -40,6 +40,7 @@ Rokoko Studio livestream settings:
 ![image](https://user-images.githubusercontent.com/88091497/194756113-76ec00b7-19c6-4310-8deb-c20e9c047045.png)
 
 Unreal settings:
+
 Find the Rokoko Receiver in the scene and make sure that it's the same as inside Studio
 
 ![image](https://user-images.githubusercontent.com/88091497/196036993-c90a6e10-eec7-46c0-b2db-05c4faebd380.png)
