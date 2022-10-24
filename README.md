@@ -82,7 +82,7 @@ Navigate into Content -> Cinematics -> Takes -> * *current Date* * -> Scene_x_xx
 
 Drag it into the scene and hit Play.
 
-## **Retarget the recorded animation to a another character**
+## **Retarget the recorded animation to another character**
 
 Make sure that the custom character is in the **exact same T-Pose as Mime_Skeleton** for a detailed retargeting.
 
@@ -112,4 +112,4 @@ Right click on the recorded animation, select Retarget Anim Assets -> Duplicate 
 
 Select the skeleton of your custom character and click Retarget.
 
-The retargeted animation should be visible in Content folder. Drag it into the scene or apply it to your character.
+The retargeted animation should be visible in Content folder. Drag it into the scene and hit Play.
