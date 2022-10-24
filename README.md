@@ -21,15 +21,15 @@ Axis Studio Lite livestream settings:
 
 Unreal settings:
 
-Window->Live Link
+Window -> Live Link
 
 ![image](https://user-images.githubusercontent.com/88091497/194756018-78662514-145d-40f3-a343-d05ad778f261.png)
 
-Select Source->Uncheck "Is UDP" and press Ok.
+Select Source -> Uncheck "Is UDP" and press Ok.
 
 ![image](https://user-images.githubusercontent.com/88091497/194756039-67637e1c-6583-476c-aee8-4b80fa04b325.png)
 
-In the Live Link Pose node(Mime_AnimBlueprint), select Neuron 's Actor.
+In the Live Link Pose node(in Mime_AnimBlueprint), select Neuron 's Actor.
 
 ![image](https://user-images.githubusercontent.com/88091497/194756069-318a4f17-bed5-47c8-a627-5f6e31d687f9.png)
 
@@ -41,7 +41,7 @@ Rokoko Studio livestream settings:
 
 Unreal settings:
 
-Find the Rokoko Receiver in the scene and make sure that it's the same as inside Studio
+Find the Rokoko Receiver in the scene and make sure that it's the same as inside Studio.
 
 ![image](https://user-images.githubusercontent.com/88091497/196036993-c90a6e10-eec7-46c0-b2db-05c4faebd380.png)
 
