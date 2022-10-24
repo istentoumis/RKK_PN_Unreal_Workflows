@@ -20,10 +20,11 @@ Axis Studio Lite livestream settings:
 ![image](https://user-images.githubusercontent.com/88091497/194755968-2992fa0f-08bd-4534-933e-affa9a77114b.png)
 
 Unreal settings:
+Window->Live Link
 
 ![image](https://user-images.githubusercontent.com/88091497/194756018-78662514-145d-40f3-a343-d05ad778f261.png)
 
-Uncheck "Is UDP" and press Ok.
+Select Source->Uncheck "Is UDP" and press Ok.
 
 ![image](https://user-images.githubusercontent.com/88091497/194756039-67637e1c-6583-476c-aee8-4b80fa04b325.png)
 
