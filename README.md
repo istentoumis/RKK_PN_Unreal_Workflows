@@ -1,6 +1,6 @@
 
--Perception Neuron suit(body) along with Rokoko Smartgloves(fingers) to Rokoko's custom character, Bruno - The Mime. Information can be found below for recording an animation with both products via Unreal's Take Recorder and retargeting to another character custom character.
-
+Perception Neuron suit(body) along with Rokoko Smartgloves(fingers) to Rokoko's custom character, Bruno - The Mime. Information can be found below for recording an animation with both products via Unreal's Take Recorder and retargeting to another character custom character.
+Markup : *
 Unreal Engine Version 4.27.
 
 Before opening the project, make sure "Neuron Live Link" and "Rokoko Studio Live" plugins are installed to the current egine version via Marketplace. Then, enable the plugins in the editor (Edit->Plugins). Restart the project. 
