@@ -5,7 +5,7 @@ Information can be found below for:
 
 * Stream in Real Time 
 * Record an animation with both products via Unreal's Take Recorder
-* Retarget an animation to another character
+* Retarget the recorded animation to another character
 
 Unreal Engine Version 4.27.
 
