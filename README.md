@@ -99,7 +99,7 @@ Set the following:
 
 ![image](https://user-images.githubusercontent.com/88091497/197599941-6b28f668-5837-4658-9ceb-509ab81b52c4.png)
 
-Click Show Advanced and **keep only the fingers for retargeting**. All the other bones should be set as None(only in Show Advanced joints).
+Click Show Advanced and **keep only the fingers for retargeting**. All the other bones should be set as None.
 
 ![image](https://user-images.githubusercontent.com/88091497/197599991-9b379b88-96bd-4e17-9ecf-46a04092c460.png)
 
