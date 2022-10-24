@@ -87,7 +87,7 @@ Drag it into the scene and hit Play.
 
 ## **Retarget the recorded animation to another character**
 
-**The steps for Mime below, need to be done before recording an animation via Take Recorder**
+**The steps for Mime below, need to be done before recording an animation via Take Recorder**.
 
 Make sure that the custom character is in the **exact same T-Pose as Mime_Skeleton** for a detailed retargeting.
 
