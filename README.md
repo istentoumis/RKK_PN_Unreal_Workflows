@@ -1,5 +1,5 @@
 
-Livestream Perception Neuron suit(body) along with Rokoko Smartgloves(fingers) to UE4 Mannequin. Information can be found below for recording an animation with both products via Unreal's Take Recorder and retargeting to a custom character.
+Livestream Perception Neuron suit(body) along with Rokoko Smartgloves(fingers) to Rokoko's custom character, Bruno - The Mime. Information can be found below for recording an animation with both products via Unreal's Take Recorder and retargeting to another character custom character.
 
 Unreal Engine Version 4.27.
 
@@ -38,7 +38,7 @@ Find the Rokoko Receiver in the scene and make sure that it's the same as inside
 
 In the UE4_Actor_BP set the Rokoko Actor Name as the Actor's Profile in Rokoko Studio.
 
-![image](https://user-images.githubusercontent.com/88091497/196037045-25651251-09fa-4ab7-b39a-f0c46c80403c.png)
+![image](https://user-images.githubusercontent.com/88091497/197598665-1d84e543-549c-4c42-ba69-9e379957222d.png)
 
 ![image](https://user-images.githubusercontent.com/88091497/194756201-db5ce427-255c-4a9d-bd4a-f33ef31b8e7a.png)
 
@@ -58,9 +58,9 @@ While livestreaming, select Window -> Cinematics -> Take Recorder.
 
 ![image](https://user-images.githubusercontent.com/88091497/194756874-c47fa236-5244-41a3-8cd3-a50f09473085.png)
 
-In Take Recorder, select the UE4_Actor_BP as the Source.
+In Take Recorder, select the Mime_BP as the Source.
 
-![image](https://user-images.githubusercontent.com/88091497/194756917-cf74ba4d-7921-46e3-8dee-8b4da32bc963.png)
+![image](https://user-images.githubusercontent.com/88091497/197599063-ace047e7-c129-43e3-82bd-d3f933c8ae65.png)
 
 Start recording your Animation:
 
@@ -72,38 +72,38 @@ Press Stop when done with the Animation(bottom right).
 
 Navigate into Content -> Cinematics -> Takes -> * *current Date* * -> Scene_x_xx_Subscenes -> Animation and the recorded Animation should be found.
 
-![image](https://user-images.githubusercontent.com/88091497/194757032-00ca53c8-67d9-44b0-a6db-5901a2196ea1.png)
+![image](https://user-images.githubusercontent.com/88091497/197599271-f6cecd9c-fce9-42e8-b0a7-8d3aca5708e7.png)
 
-Drag it into the scene or apply it in your character.
+Drag it into the scene and hit Play.
 
-## **Retarget the recorded animation to a custom character**
+## **Retarget the recorded animation to a another character**
 
-Make sure that the custom character is in the same T-Pose as UE4_Actor_Skeleton.
+Make sure that the custom character is in the **exact same T-Pose as Mime_Skeleton** for a detailed retargeting.
 
-In UE4_Actor_Skeleton select Retarget Manager, Select Rig -> Select Humanoid Rig.
+In Mime_Skeleton select Retarget Manager, Select Rig -> Select Humanoid Rig.
 
 ![image](https://user-images.githubusercontent.com/88091497/194758050-1ce59062-cd6a-4150-9b63-bee7e4e0713e.png)
 
 ![image](https://user-images.githubusercontent.com/88091497/194758058-5a83a5a1-6e4d-4ed2-9600-246ab882c23c.png)
 
+Set the following:
+
+![image](https://user-images.githubusercontent.com/88091497/197599941-6b28f668-5837-4658-9ceb-509ab81b52c4.png)
+
 Click Show Advanced and **keep only the fingers for retargeting**. All the other bones should be set as None(only in Show Advanced joints).
 
-![image](https://user-images.githubusercontent.com/88091497/194758125-29b0ff19-952c-45b5-8408-c52f718d7c09.png)
-
-![image](https://user-images.githubusercontent.com/88091497/194758131-76cae3aa-e4df-4801-802b-3a3b75c03ba6.png)
+![image](https://user-images.githubusercontent.com/88091497/197599991-9b379b88-96bd-4e17-9ecf-46a04092c460.png)
 
 Clise Save to save the bonemap.
 
-In your custom character's skeleton, select Retarget Manager, Select Rig -> Select Humanoid Rig.
+In the other character's skeleton, select Retarget Manager, Select Rig -> Select Humanoid Rig.
 
-Select all the corresponding joints of the custom character for a proper retargeting(the same joints that were selected in UE4_Actor_Skeleton). Click Save to save the bonemap.
+Select all the corresponding joints of the character for a proper retargeting(the same joints that were selected in Mime_Skeleton). Click Save to save the bonemap.
 
 Right click on the recorded animation, select Retarget Anim Assets -> Duplicate Anim Assets and Retarget.
 
 ![image](https://user-images.githubusercontent.com/88091497/194758283-fe85b376-39b7-4fb3-aaf2-77ed83c1b36a.png)
 
 Select the skeleton of your custom character and click Retarget.
-
-![image](https://user-images.githubusercontent.com/88091497/194758343-08a32fa0-f4c1-4000-88be-b773771f2788.png)
 
 The retargeted animation should be visible in Content folder. Drag it into the scene or apply it to your character.
