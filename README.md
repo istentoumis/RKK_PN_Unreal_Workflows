@@ -27,11 +27,11 @@ Uncheck "Is UDP" and press Ok.
 
 ![image](https://user-images.githubusercontent.com/88091497/194756039-67637e1c-6583-476c-aee8-4b80fa04b325.png)
 
-In the Live Link Pose node(UE4_Mannequin_AnimBP), select Neuron 's Actor.
+In the Live Link Pose node(Mime_AnimBlueprint), select Neuron 's Actor.
 
 ![image](https://user-images.githubusercontent.com/88091497/194756069-318a4f17-bed5-47c8-a627-5f6e31d687f9.png)
 
-Rokoko Studio livestream settings
+Rokoko Studio livestream settings:
 
 ![image](https://user-images.githubusercontent.com/88091497/194756109-28522e81-50fa-4369-af15-0d7a28bc80a9.png)
 
@@ -42,7 +42,7 @@ Find the Rokoko Receiver in the scene and make sure that it's the same as inside
 
 ![image](https://user-images.githubusercontent.com/88091497/196036993-c90a6e10-eec7-46c0-b2db-05c4faebd380.png)
 
-In the UE4_Actor_BP set the Rokoko Actor Name as the Actor's Profile in Rokoko Studio.
+In the Mime_BP set the Rokoko Actor Name as the Actor's Profile in Rokoko Studio.
 
 ![image](https://user-images.githubusercontent.com/88091497/197598665-1d84e543-549c-4c42-ba69-9e379957222d.png)
 
@@ -56,7 +56,7 @@ Hit Play.
 
 ## **Record an animation**
 
-While livestreaming, select Window -> Cinematics -> Take Recorder.
+Select Window -> Cinematics -> Take Recorder.
 
 ![image](https://user-images.githubusercontent.com/88091497/194756840-7d1a5244-1e06-4af2-b23d-8ba1a8580e85.png)
 
@@ -68,7 +68,7 @@ In Take Recorder, select the Mime_BP as the Source.
 
 ![image](https://user-images.githubusercontent.com/88091497/197599063-ace047e7-c129-43e3-82bd-d3f933c8ae65.png)
 
-Start recording your Animation:
+**Hit Play** and then start recording your Animation, otherwise you will not be able to:
 
 ![image](https://user-images.githubusercontent.com/88091497/194756937-9d158286-e9c4-4ca7-8ef1-8783abc6e6b0.png)
 
@@ -83,6 +83,8 @@ Navigate into Content -> Cinematics -> Takes -> * *current Date* * -> Scene_x_xx
 Drag it into the scene and hit Play.
 
 ## **Retarget the recorded animation to another character**
+
+**The steps for Mime below, need to be done before recording an animation via Take Recorder**
 
 Make sure that the custom character is in the **exact same T-Pose as Mime_Skeleton** for a detailed retargeting.
 
