@@ -7,7 +7,7 @@ Information can be found below for:
 * Record an animation with both products via Unreal's Take Recorder
 * Retarget the recorded animation to another character
 
-Unreal Engine Version 4.27.
+Unreal Engine Version 4.27. Rokoko/Neuron plugins were not implemented by me.
 
 Before opening the project, make sure "Neuron Live Link" and "Rokoko Studio Live" plugins are installed to the current egine version via Marketplace. Then, enable the plugins in the editor (Edit->Plugins). Restart the project. 
 
