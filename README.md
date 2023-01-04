@@ -1,5 +1,5 @@
 
-Perception Neuron suit(body) along with Rokoko Smartgloves(fingers) to Rokoko's custom character, Bruno - The Mime.Unreal Engine Version 4.27. Rokoko/Neuron plugins were not implemented by me.
+Perception Neuron suit(body) along with Rokoko Smartgloves(fingers) to Rokoko's custom character, Bruno - The Mime.Unreal Engine Version 4.27. Rokoko/Neuron plugins were not implemented by me. All the workflow was created via blueprints - did not modify the existing plugins at all.
 
 Information can be found below for:
 
